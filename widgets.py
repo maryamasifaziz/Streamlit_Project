@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.title('Data Science and AI Batch 05')
+st.title('My Project')
 
 name = st.text_input('Enter your name:')
 # age = st.number_input('Enter your age:', min_value=0, max_value=120, step=1)
@@ -36,3 +36,4 @@ if uploadedfile is not None:
     df_uploaded = pd.read_csv(uploadedfile)
     st.write("Here is the uploaded data:")
     st.write(df_uploaded)
+
